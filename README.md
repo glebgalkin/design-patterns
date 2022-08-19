@@ -8,4 +8,5 @@ graph TD;
     InterfaceProduct-->classShoesProduct;
     AbstractClassStore-->DressStore;
     AbstractClassStore-->ShoeStore;
+    Demo
 ```
