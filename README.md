@@ -1,11 +1,12 @@
-# design-patterns
-
-Here is a simple flow chart:
+# Design Patterns
+## Creational
+### Factory Method
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Interface Product--> class DressProduct;
+    Interface Product--> class ShoesProduct;
+    Abstract Class Store --> DressStore;
+    Abstract Class Store --> ShoeStore;
+    Demo
 ```
