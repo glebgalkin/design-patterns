@@ -7,5 +7,5 @@ graph TD;
     InterfaceProduct-->classDressProduct;
     InterfaceProduct-->classShoesProduct;
     AbstractClassStore-->DressStore;
-    AbstractClass Store-->ShoeStore;
+    AbstractClassStore-->ShoeStore;
 ```
