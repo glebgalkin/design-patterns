@@ -4,8 +4,8 @@
 
 ```mermaid
 graph TD;
-    Interface Product-->class DressProduct;
-    Interface Product-->class ShoesProduct;
-    Abstract Class Store-->DressStore;
-    Abstract Class Store-->ShoeStore;
+    InterfaceProduct-->classDressProduct;
+    InterfaceProduct-->classShoesProduct;
+    AbstractClassStore-->DressStore;
+    AbstractClass Store-->ShoeStore;
 ```
