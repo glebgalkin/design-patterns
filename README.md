@@ -10,4 +10,15 @@ graph TD;
     AbstractClassStore-->ShoeStore;
     Demo
 ```
-g
+### Abstract Factory
+
+```mermaid
+graph TD;
+    InterfacePhone-->classAppleIphone;
+    InterfacePhone-->classSamsungGalaxy;
+    InterfaceLaptop-->classAppleMac;
+    InterfaceLaptop-->classSamsungPC;
+    InterfaceFactory-->AppleFactory;
+    InterfaceFactory-->SamsungDactory;
+    Demo
+```
