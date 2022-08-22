@@ -22,3 +22,13 @@ graph TD;
     InterfaceFactory-->SamsungDactory;
     Demo
 ```
+
+### Builder
+
+```mermaid
+graph TD;
+    InterfaceBuilder-->classPLaneBuilder;
+    ClassPlane;
+    ClassDirector;
+    Demo
+```
