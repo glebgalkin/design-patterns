@@ -32,3 +32,10 @@ graph TD;
     ClassDirector;
     Demo
 ```
+
+### Prototype
+```mermaid
+graph TD;
+    InterfaceSpeaker-->classFocal;
+    Demo
+```
