@@ -39,3 +39,9 @@ graph TD;
     InterfaceSpeaker-->classFocal;
     Demo
 ```
+### Singleton
+```mermaid
+graph TD;
+    Singleton;
+    Demo
+```
