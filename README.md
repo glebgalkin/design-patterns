@@ -45,3 +45,11 @@ graph TD;
     Singleton;
     Demo
 ```
+
+## Structural 
+### Adapter
+```mermaid
+graph TD;
+    XMLtoJSONconverter
+    Demo
+```
