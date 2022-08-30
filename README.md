@@ -64,3 +64,15 @@ graph TD;
     Demo;
 ```
 
+### Composite
+```mermaid
+graph TD;
+    ItemINterface-->AbstractBaseItem;
+    AbstractBaseItem-->ClassDress;
+    AbstractBaseItem-->ClassHeels;
+    AbstractBaseItem-->Pants;
+    AbstractBaseItem-->Bundle;
+    ClassCart;
+    Demo;
+```
+
