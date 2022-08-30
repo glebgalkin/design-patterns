@@ -1,6 +1,8 @@
-package structural.composite;
+package structural.composite.items;
 
-public class Heals extends BaseItem{
+import structural.composite.items.BaseItem;
+
+public class Heals extends BaseItem {
 
     private String color;
 

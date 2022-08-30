@@ -1,6 +1,8 @@
-package structural.composite;
+package structural.composite.items;
 
-public class Dress extends BaseItem{
+import structural.composite.items.BaseItem;
+
+public class Dress extends BaseItem {
 
     private String type;
 

@@ -1,6 +1,8 @@
-package structural.composite;
+package structural.composite.items;
 
-public class Pants extends BaseItem{
+import structural.composite.items.BaseItem;
+
+public class Pants extends BaseItem {
 
     private int length;
 

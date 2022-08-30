@@ -1,6 +1,8 @@
-package structural.composite;
+package structural.composite.items;
 
-public abstract class BaseItem implements Item{
+import structural.composite.items.Item;
+
+public abstract class BaseItem implements Item {
     private int price;
     private int warranty;
 

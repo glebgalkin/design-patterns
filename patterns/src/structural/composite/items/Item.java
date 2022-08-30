@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.items;
 
 public interface Item {
 
