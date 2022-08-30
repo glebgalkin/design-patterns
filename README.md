@@ -53,3 +53,14 @@ graph TD;
     XMLtoJSONconverter
     Demo
 ```
+
+### Bridge
+```mermaid
+graph TD;
+    Athlete-->HockeyPlayer;
+    Athlete-->SoccerPlayer;
+    Coach-->StrengthCoach;
+    Coach-->MentalHealthCoach;
+    Demo;
+```
+
