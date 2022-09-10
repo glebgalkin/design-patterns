@@ -76,5 +76,12 @@ graph TD;
     Demo;
 ```
 
+### Decorator
+```mermaid
+graph TD;
+    TaxCalculatorInterface-->FederalTaxCalculatorClass;
+    FederalTaxCalculatorClass-->QuebecTaxCalculatorClass;
+    Demo;
+```
  
 
