@@ -6,7 +6,7 @@ public class QuebecTaxCalculator extends FederalTaxCalculator{
     }
 
     private int includeQuebecCut(){
-        return getIncome() + (int)Math.floor(this.getIncome()*0.15);
+        return (int)Math.floor(this.getIncome()*0.15);
     }
 
     @Override
