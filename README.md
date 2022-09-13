@@ -83,5 +83,16 @@ graph TD;
     FederalTaxCalculatorClass-->QuebecTaxCalculatorClass;
     Demo;
 ```
- 
+
+### Facade
+```mermaid
+
+graph TD;
+    AbstractClass-->CSCourse;
+    AbstractClass-->ElectiveCourse;
+    InterfaceInsurance-->StudentInsuranceClass;
+    GraduationInterface-->StudentGrad;
+    StudentPortalFacade;
+    Demo;
+```
  
