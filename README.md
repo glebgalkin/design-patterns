@@ -95,4 +95,13 @@ graph TD;
     StudentPortalFacade;
     Demo;
 ```
+
+### Lightweight
+```mermaid
+
+graph TD;
+    ArmyManInterface-->SoldierClass;
+    SoldierFactory;
+    Demo;
+```
  
