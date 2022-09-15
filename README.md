@@ -98,10 +98,17 @@ graph TD;
 
 ### Lightweight
 ```mermaid
-
 graph TD;
     ArmyManInterface-->SoldierClass;
     SoldierFactory;
+    Demo;
+```
+
+### Proxy
+```mermaid
+graph TD;
+    FileRefInterface-->FileEngineClass;
+    FileRefInterface-->FileCache;
     Demo;
 ```
  
