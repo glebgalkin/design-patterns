@@ -111,4 +111,15 @@ graph TD;
     FileRefInterface-->FileCache;
     Demo;
 ```
+
+## Behavioral
+### Chain of responsibility
+```mermaid
+graph TD;
+    AbstractClassMiddleWare-->RegularCheck;
+    AbstractClassMiddleWare-->RoleCheck;
+    ClassServer;
+    Demo;
+```
+
  
