@@ -121,5 +121,14 @@ graph TD;
     ClassServer;
     Demo;
 ```
+### Command
+```mermaid
+graph TD;
+    CommandInterface-->SellCurrency;
+    CommandInterface-->BuyCurrency;
+    ClassBankWorker;
+    Demo;
+```
+
 
  
