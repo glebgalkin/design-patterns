@@ -130,6 +130,16 @@ graph TD;
     Demo;
 ```
 
+### Iterator
+```mermaid
+graph TD;
+    FoodIteratorInterface-->DonutIterator;
+    FoodIteratorInterface->ChocolateIterator;
+    FoodClass-->Donut;
+    FoodClass-->Chocolate;
+    Demo;
+```
+
 
 
 
