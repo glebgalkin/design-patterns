@@ -140,6 +140,15 @@ graph TD;
     Demo;
 ```
 
-
+### Mediator
+```mermaid
+graph TD;
+    EmployeeInterface-->FrontDesk;
+    EmployeeInterface-->Waiter;
+    EmployeeInterface-->Chief;
+    EmployeeInterface-->Accountant;
+    MediatorInterface-->RestaurantManager;
+    Demo;
+```
 
  
