@@ -151,4 +151,11 @@ graph TD;
     Demo;
 ```
 
+### Memento
+```mermaid
+graph TD;
+    MementoInterface-->HistoryManager;
+    Demo;
+```
+
  
