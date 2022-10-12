@@ -158,4 +158,15 @@ graph TD;
     Demo;
 ```
 
+
+### Observer
+```mermaid
+graph TD;
+    ClassEventManager;
+    EventListenerInterface-->DatabaseService;
+    EventListenerInterface-->EmailService;
+    ClassUser;
+    Demo;
+```
+
  
