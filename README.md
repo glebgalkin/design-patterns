@@ -169,4 +169,14 @@ graph TD;
     Demo;
 ```
 
+
+### State
+```mermaid
+graph TD;
+    StateInterface-->Offline;
+    StateInterface-->Online;
+    StateInterface-->Quiet;
+    ClassUser;
+    Demo;
+```
  
