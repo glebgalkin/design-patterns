@@ -179,4 +179,12 @@ graph TD;
     ClassUser;
     Demo;
 ```
+
+### Strategy
+```mermaid
+graph TD;
+    ClothesInterface-->MensMarket;
+    ClothesInterface-->WomensMarket;
+    Demo;
+```
  
