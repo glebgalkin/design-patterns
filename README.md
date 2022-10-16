@@ -188,5 +188,13 @@ graph TD;
     Demo;
 ```
 
+### Strategy
+```mermaid
+graph TD;
+    OSInterface-->MacOS;
+    OSInterface-->Windows;
+    Demo;
+```
+
 
  
