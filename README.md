@@ -196,5 +196,16 @@ graph TD;
     Demo;
 ```
 
+### Visitor
+```mermaid
+graph TD;
+    ComputerPartInterface-->Mouse;
+    ComputerPartInterface-->Keyboard;
+    ComputerPartInterface-->Monitor;
+    ComputerPartInterface-->Computer;
+    VisitorInterface-->ComputerVisitorInterface;
+    Demo;
+```
+
 
  
