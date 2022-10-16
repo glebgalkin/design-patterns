@@ -203,7 +203,7 @@ graph TD;
     ComputerPartInterface-->Keyboard;
     ComputerPartInterface-->Monitor;
     ComputerPartInterface-->Computer;
-    VisitorInterface-->ComputerVisitorInterface;
+    VisitorInterface-->ComputerVisitor;
     Demo;
 ```
 
